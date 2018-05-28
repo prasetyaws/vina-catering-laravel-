@@ -6,10 +6,10 @@
 
     <div class="card mb-3">
         <div class="card-header">
-          <i class="fa fa-table"></i> Data Table Example </div>
+          <i class="fa fa-table"></i> Data Makanan </div>
         <div class="card-body">
 
-            <div class="col-lg-12">
+            <div class="col-lg-12" style="padding-bottom: 20px">
                    
                     <a href="tambahmenu"><i class="fa fa-plus fa-fw"></i>Tambah Menu</a>
             </div>

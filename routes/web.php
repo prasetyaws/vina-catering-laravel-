@@ -28,11 +28,11 @@ Route::get('/pelanggan', 'pelanggancontroller@get_pelanggan');
 Route::get('/transaksi', 'transaksicontroller@get_transaksi')->name('menu.tambahmenu');
 Route::post('/menu', 'menucontroller@store')->name('menu.store');
 Route::get('/menu/delete/{id}','menucontroller@destroy')->name('menu.delete');
+Route::get('/signin', 'logincontroller@admin')->name('login');
+Route::get('/signup', 'logincontroller@daftar')->name('daftar');
+
 
 Route::get('menu/edit/{id}','menucontroller@edit')->name('menu.edit');
-
-
-
 Route::patch('/update/{id}','menucontroller@update')->name('menu.update');
 
 Route::get('/makanan', 'customercontroller@makanan')->name('menu.makanan');

@@ -21,7 +21,6 @@ class MenuController extends Controller
     	  $data = MenuModel::all();
         return view('admin/menu',compact('data'));
     }
-    
 
     public function tambah_menu()
     {
@@ -55,6 +54,12 @@ class MenuController extends Controller
        return redirect()->route('menu.tambahmenu')->with('alert-success','Berhasil Menambahkan Menu');
          
     }
+
+
+
+
+
+
 
     public function destroy($id)
     {
